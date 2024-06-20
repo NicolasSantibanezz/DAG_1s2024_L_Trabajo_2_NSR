@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: miércoles, 19 de junio de 2024 17:30:13</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\nicos\Documents\ArcGIS\Packages\DAG_1s2024_L_TRABAJO_1_PARTE_2_NSR_85fdab\commondata\dag_1s2024_l_trabajo_1_parte_2_nsr.gdb\Script1.py", line 21, in &lt;module&gt;
+﻿    aprxMap.addDataFromPath(buffersup)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\utils.py", line 186, in fn_
+﻿    return fn(*args, **kw)
+﻿           ^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\_mp.py", line 4047, in addDataFromPath
+﻿    return convertArcObjectToPythonObject(self._arc_object.addDataFromPath(*gp_fixargs((data_path, web_service_type, custom_parameters,), True)))
+﻿                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿RuntimeError: Failed to add data. Possible credentials issue.
+</msg><msg code="0" type="0">Failed script Script1...</msg><msg code="-2147467259" type="100">Failed to execute (Script1).</msg><msg code="0" type="3">Failed at miércoles, 19 de junio de 2024 17:30:13 (Elapsed Time: 0,29 seconds)</msg></messages>

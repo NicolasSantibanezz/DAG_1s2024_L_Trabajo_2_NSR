@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: miércoles, 19 de junio de 2024 18:16:43</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\nicos\Documents\ArcGIS\Packages\DAG_1s2024_L_TRABAJO_1_PARTE_2_NSR_85fdab\commondata\dag_1s2024_l_trabajo_1_parte_2_nsr.gdb\ambulantesvalor.py", line 33, in &lt;module&gt;
+﻿    arcpy.management.SelectLayerByAttribute(content[1], where_clause = "amb is NULL")
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 11228, in SelectLayerByAttribute
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 11225, in SelectLayerByAttribute
+﻿    retval = convertArcObjectToPythonObject(gp.SelectLayerByAttribute_management(*gp_fixargs((in_layer_or_view, selection_type, where_clause, invert_where_clause), True)))
+﻿                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 512, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: ERROR 160144: An expected Field was not found or could not be retrieved properly.
+Failed to execute (SelectLayerByAttribute).
+
+</msg><msg code="0" type="0">Failed script 2.2 Ambulantes...</msg><msg code="-2147467259" type="100">Failed to execute (ambulantesvalor).</msg><msg code="0" type="3">Failed at miércoles, 19 de junio de 2024 18:16:44 (Elapsed Time: 1,54 seconds)</msg></messages>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: miércoles, 19 de junio de 2024 17:31:55</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\nicos\Documents\ArcGIS\Packages\DAG_1s2024_L_TRABAJO_1_PARTE_2_NSR_85fdab\commondata\dag_1s2024_l_trabajo_1_parte_2_nsr.gdb\Script1.py", line 30, in &lt;module&gt;
+﻿    arcpy.management.CalculateField(content[1], IND_sup, expression = "1", field_type = "LONG")
+﻿                                                ^^^^^^^
+﻿NameError: name 'IND_sup' is not defined
+</msg><msg code="0" type="0">Failed script Script1...</msg><msg code="-2147467259" type="100">Failed to execute (Script1).</msg><msg code="0" type="3">Failed at miércoles, 19 de junio de 2024 17:31:56 (Elapsed Time: 0,68 seconds)</msg></messages>

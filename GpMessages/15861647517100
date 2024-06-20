@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: miércoles, 19 de junio de 2024 15:56:49</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\nicos\Documents\ArcGIS\Packages\DAG_1s2024_L_TRABAJO_1_PARTE_2_NSR_85fdab\commondata\dag_1s2024_l_trabajo_1_parte_2_nsr.gdb\Toolbox#Script_NewToolbox.py", line 26, in &lt;module&gt;
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 11368, in SelectLayerByLocation
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 11365, in SelectLayerByLocation
+﻿    retval = convertArcObjectToPythonObject(gp.SelectLayerByLocation_management(*gp_fixargs((in_layer, overlap_type, select_features, search_distance, selection_type, invert_spatial_relationship), True)))
+﻿                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 512, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000840: The value is not a Feature Layer.
+Failed to execute (SelectLayerByLocation).
+
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (Script).</msg><msg code="0" type="3">Failed at miércoles, 19 de junio de 2024 15:56:50 (Elapsed Time: 0,84 seconds)</msg></messages>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: miércoles, 19 de junio de 2024 17:26:54</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\nicos\Documents\ArcGIS\Packages\DAG_1s2024_L_TRABAJO_1_PARTE_2_NSR_85fdab\commondata\dag_1s2024_l_trabajo_1_parte_2_nsr.gdb\Script1.py", line 31, in &lt;module&gt;
+﻿    arcpy.management.CalculateField(content[1], field_name, expression = "1", field_type = "LONG")
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5711, in CalculateField
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5708, in CalculateField
+﻿    retval = convertArcObjectToPythonObject(gp.CalculateField_management(*gp_fixargs((in_table, field, expression, expression_type, code_block, field_type, enforce_domains), True)))
+﻿                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 512, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: ERROR 000310: The Field name must not start with a number
+Failed to execute (CalculateField).
+
+</msg><msg code="0" type="0">Failed script Script1...</msg><msg code="-2147467259" type="100">Failed to execute (Script1).</msg><msg code="0" type="3">Failed at miércoles, 19 de junio de 2024 17:26:56 (Elapsed Time: 1,23 seconds)</msg></messages>

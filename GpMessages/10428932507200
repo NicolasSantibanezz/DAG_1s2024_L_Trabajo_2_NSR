@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: miércoles, 19 de junio de 2024 14:26:17</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "&lt;string&gt;", line 1, in &lt;module&gt;
+﻿NameError: name 'LONG' is not defined
+﻿Traceback (most recent call last):
+﻿  File "C:\Users\nicos\Documents\ArcGIS\Packages\DAG_1s2024_L_TRABAJO_1_PARTE_2_NSR_85fdab\commondata\dag_1s2024_l_trabajo_1_parte_2_nsr.gdb\Toolbox#supervaloresmanz_NewToolbox.py", line 15, in &lt;module&gt;
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5711, in CalculateField
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5708, in CalculateField
+﻿    retval = convertArcObjectToPythonObject(gp.CalculateField_management(*gp_fixargs((in_table, field, expression, expression_type, code_block, field_type, enforce_domains), True)))
+﻿                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 512, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: ERROR 000539: ﻿Traceback (most recent call last):
+﻿  File "&lt;string&gt;", line 1, in &lt;module&gt;
+﻿NameError: name 'LONG' is not defined
+
+Failed to execute (CalculateField).
+
+</msg><msg code="0" type="0">Failed script 2.1 Supermercados...</msg><msg code="-2147467259" type="100">Failed to execute (supervaloresmanz).</msg><msg code="0" type="3">Failed at miércoles, 19 de junio de 2024 14:26:18 (Elapsed Time: 1,48 seconds)</msg></messages>

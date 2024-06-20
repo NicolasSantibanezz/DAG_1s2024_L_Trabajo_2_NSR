@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: miércoles, 19 de junio de 2024 22:27:44</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\nicos\Documents\ArcGIS\Packages\DAG_1s2024_L_TRABAJO_1_PARTE_2_NSR_85fdab\commondata\dag_1s2024_l_trabajo_1_parte_2_nsr.gdb\newcolumna.py", line 19, in &lt;module&gt;
+﻿    arcpy.management.AddSpatialJoin(target_features= fcIn, join_features= manzanas, join_operation="JOIN_ONE_TO_ONE", join_type="KEEP_COMMON", field_mapping='TOTAL_PERS "TOTAL_PERS" true true false 4 Long 0 0,First,#,Manzanas_EC,TOTAL_PERS,-1,-1;TOTAL_VIVI "TOTAL_VIVI" true true false 4 Long 0 0,First,#,Manzanas_EC,TOTAL_VIVI,-1,-1', match_option="INTERSECT", search_radius=None, distance_field_name="", permanent_join="PERMANENT_FIELDS", match_fields=None)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 9628, in AddSpatialJoin
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 9625, in AddSpatialJoin
+﻿    retval = convertArcObjectToPythonObject(gp.AddSpatialJoin_management(*gp_fixargs((target_features, join_features, join_operation, join_type, field_mapping, match_option, search_radius, distance_field_name, permanent_join, match_fields), True)))
+﻿                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 512, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: ERROR 999999: Something unexpected caused the tool to fail. Contact Esri Technical Support (http://esriurl.com/support) to Report a Bug, and refer to the error help for potential solutions or workarounds.
+Failed to execute (AddSpatialJoin).
+
+</msg><msg code="0" type="0">Failed script 3.2 Generar columna para calculo del indice...</msg><msg code="-2147467259" type="100">Failed to execute (indice).</msg><msg code="0" type="3">Failed at miércoles, 19 de junio de 2024 22:27:45 (Elapsed Time: 0,66 seconds)</msg></messages>
